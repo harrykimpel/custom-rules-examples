@@ -18,7 +18,7 @@ deny[msg] {
 
 	msg := {
 		"publicId": "CUSTOM-RULE-HARRY",
-		"title": "IAM user missing one of the required tags: owner, description or type",
+		"title": "Harry's own rule - IAM user missing one of the required tags: owner, description or type",
 		"severity": "medium",
 		"msg": sprintf("input.resource.aws_iam_user[%s].tags", [name]),
 		"issue": "",
